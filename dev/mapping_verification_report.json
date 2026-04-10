@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-04-01T15:41:28.860894",
+  "excel_file": "C:\\Users\\whyke\\github\\six-problem\\Data\\EEG_Segmentation.xlsx",
+  "processed_subjects": 0,
+  "mapping_source": "SEPTEMBER_MARKER_MAPPING (complete)",
+  "subjects_processed": [
+    "sep_12.vhdr",
+    "sep_12(2).vhdr",
+    "sep_13.vhdr",
+    "sep_13(2).vhdr",
+    "eeg_sep_18.vhdr"
+  ],
+  "summary": {
+    "total_september_subjects": 5,
+    "successfully_mapped": 0,
+    "status": "⚠️ 部分完成 (0/5)"
+  }
+}

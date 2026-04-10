@@ -1,0 +1,94 @@
+# ==========================================
+# EEG RAW DATA — Large binary dataset folders
+# ==========================================
+
+# OneDrive downloaded EEG data batches
+Data/OneDrive_1_*/
+Data/OneDrive_1_*.zip
+
+# Individual raw EEG session folders (BrainVision format)
+Data/eeg_*/
+Data/EEG_*/
+Data/eeg_aug_05/
+Data/eeg_july_29/
+
+# Processed segment output (large .fif files)
+Data/segments_output/
+
+# ==========================================
+# LARGE BINARY FILE TYPES
+# ==========================================
+
+# EEG raw data files
+*.eeg
+*.vhdr
+*.vmrk
+*.atf
+*.elp
+*.fst
+*.ftg
+
+# Processed MNE data
+*.fif
+*.fif.gz
+
+# ==========================================
+# DOCUMENTS & MEDIA (per user request)
+# ==========================================
+
+*.pdf
+*.docx
+*.doc
+*.txt
+
+# Exception: keep key reference text files if needed
+# !Data/EXCEL_FILLING_REFERENCE.txt
+
+# ==========================================
+# EXCEL BACKUPS (keep main, ignore auto-backups)
+# ==========================================
+
+Data/EEG_Segmentation_backup*.xlsx
+Data/~$*.xlsx
+Data/~$*.docx
+
+# ==========================================
+# PYTHON CACHE
+# ==========================================
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ==========================================
+# OS & EDITOR FILES
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# ==========================================
+# CLAUDE / AI ASSISTANT FILES
+# ==========================================
+
+.claude/
+
+# ==========================================
+# WHAT IS TRACKED (kept in git):
+# ==========================================
+# Data/EEG_Segmentation.xlsx         ← main segmentation table
+# Data/EEG_Segmentation(Sheet1).csv  ← latest CSV version
+# Data/EEG_Segmentation_correction.csv
+# Data/Cap63 (1).locs                ← electrode locations
+# Data/notebook.docx                 ← NO: excluded by *.docx above
+# Data/batch_preprocess_segment.py   ← pipeline script
+# Data/extract_*.py                  ← extraction scripts
+# Data/fill_*.py                     ← fill scripts
+# dev/                               ← development docs
+# history                            ← project history

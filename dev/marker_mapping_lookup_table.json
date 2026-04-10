@@ -1,0 +1,146 @@
+{
+  "framework": "Marker Mapping for 6-Problem Design Cognition Study",
+  "extraction_status": "PARTIAL - Awaiting Subject Logs",
+  "september_data": {
+    "sep_12.vhdr": {
+      "file_name": "sep_12.vhdr",
+      "total_events": 43,
+      "s14_count": 22,
+      "s15_count": 21,
+      "duration_sec": 5612.21,
+      "sampling_rate": 500.0,
+      "channels": 63
+    },
+    "sep_12(2).vhdr": {
+      "file_name": "sep_12(2).vhdr",
+      "total_events": 41,
+      "s14_count": null,
+      "s15_count": null,
+      "duration_sec": 2347.34,
+      "sampling_rate": 500.0,
+      "channels": 63
+    },
+    "sep_13.vhdr": {
+      "file_name": "sep_13.vhdr",
+      "total_events": 42,
+      "s14_count": null,
+      "s15_count": null,
+      "duration_sec": 4562.686,
+      "sampling_rate": 500.0,
+      "channels": 63
+    },
+    "sep_13(2).vhdr": {
+      "file_name": "sep_13(2).vhdr",
+      "total_events": 43,
+      "s14_count": null,
+      "s15_count": null,
+      "duration_sec": 2662.962,
+      "sampling_rate": 500.0,
+      "channels": 63
+    },
+    "eeg_sep_18.vhdr": {
+      "file_name": "eeg_sep_18.vhdr",
+      "total_events": 44,
+      "s14_count": null,
+      "s15_count": null,
+      "duration_sec": 5370.416,
+      "sampling_rate": 500.0,
+      "channels": 63
+    }
+  },
+  "required_lookups": {
+    "sep_12.vhdr": {
+      "status": "NEED_LOG_LOOKUP",
+      "fields_needed": [
+        "recording_date",
+        "s14_meaning",
+        "s15_meaning",
+        "problem_order"
+      ],
+      "example_values": {
+        "recording_date": "2013-09-12",
+        "s14_meaning": "开始构思 或 评估方案",
+        "s15_meaning": "完成构思 或 打字记录",
+        "problem_order": "3,1,6,2,5,4"
+      }
+    },
+    "sep_12(2).vhdr": {
+      "status": "NEED_LOG_LOOKUP",
+      "fields_needed": [
+        "recording_date",
+        "s14_meaning",
+        "s15_meaning",
+        "problem_order"
+      ],
+      "example_values": {
+        "recording_date": "2013-09-12",
+        "s14_meaning": "开始构思 或 评估方案",
+        "s15_meaning": "完成构思 或 打字记录",
+        "problem_order": "3,1,6,2,5,4"
+      }
+    },
+    "sep_13.vhdr": {
+      "status": "NEED_LOG_LOOKUP",
+      "fields_needed": [
+        "recording_date",
+        "s14_meaning",
+        "s15_meaning",
+        "problem_order"
+      ],
+      "example_values": {
+        "recording_date": "2013-09-12",
+        "s14_meaning": "开始构思 或 评估方案",
+        "s15_meaning": "完成构思 或 打字记录",
+        "problem_order": "3,1,6,2,5,4"
+      }
+    },
+    "sep_13(2).vhdr": {
+      "status": "NEED_LOG_LOOKUP",
+      "fields_needed": [
+        "recording_date",
+        "s14_meaning",
+        "s15_meaning",
+        "problem_order"
+      ],
+      "example_values": {
+        "recording_date": "2013-09-12",
+        "s14_meaning": "开始构思 或 评估方案",
+        "s15_meaning": "完成构思 或 打字记录",
+        "problem_order": "3,1,6,2,5,4"
+      }
+    },
+    "eeg_sep_18.vhdr": {
+      "status": "NEED_LOG_LOOKUP",
+      "fields_needed": [
+        "recording_date",
+        "s14_meaning",
+        "s15_meaning",
+        "problem_order"
+      ],
+      "example_values": {
+        "recording_date": "2013-09-12",
+        "s14_meaning": "开始构思 或 评估方案",
+        "s15_meaning": "完成构思 或 打字记录",
+        "problem_order": "3,1,6,2,5,4"
+      }
+    }
+  },
+  "known_examples": {
+    "example_1_2013_04_15": {
+      "description": "2013年4月15日实验",
+      "s14": "开始构思/画图 (Start Solution)",
+      "s15": "完成构思 (Finish Solution)"
+    },
+    "example_2_2013_04_24": {
+      "description": "2013年4月24日实验",
+      "s14": "评估方案 (Evaluate)",
+      "s15": "打字记录 (Typing)"
+    },
+    "example_3_later_studies": {
+      "description": "后期研究中",
+      "s14_s15_pattern": "经常被用来标定'评估解决方案'或'生成方案的评分'这一特定时间段",
+      "note": "具体含义需要查看对应的被试日志"
+    }
+  },
+  "standard_sequence": "\n标准化认知循环 (对每个设计问题):\n  1. Read problem          - 阅读并理解设计要求\n  2. Generate solution     - 生成解决方案并绘制草图\n  3. Evaluate WL (前)      - 评估当前的脑力负荷\n  4. Evaluate solution     - 评估自己生成方案的质量\n  5. Typing                - 打字输入设计说明或想法\n  6. Evaluate WL (后)      - 任务结束后的脑力负荷评估\n\n6个设计问题 (随机分配顺序):\n  1. Cake               - 儿童旋转蛋糕相关\n  2. Recycle bin        - 垃圾回收桶\n  3. Toothbrush         - 牙刷/牙膏相关\n  4. Metro/Wheelchair   - 无障碍设计\n  5. Workspace+Exercise - 结合锻炼的办公空间\n  6. Drinking fountain  - 饮水机\n\n记录类型 (EEG + 生理数据):\n  - EEG (脑电图)\n  - HRV (心率变异性)\n  - GSR (皮肤电)\n  - 眼动追踪\n"
+}

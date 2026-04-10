@@ -1,0 +1,109 @@
+{
+  "timestamp": "2026-04-01T15:38:49.739607",
+  "data_source": "September 2013 EEG Recordings",
+  "total_subjects": 5,
+  "subjects": {
+    "sep_12.vhdr": {
+      "recording_date": "2013-09-12",
+      "subject_info": "1990 F, Quality",
+      "problem_order": [
+        "Cake",
+        "Bin",
+        "Toothbrush",
+        "Workspace",
+        "Fountain",
+        "Metro"
+      ],
+      "s14_meaning": "Typing (Problem 2)",
+      "s15_meaning": "Evaluate WL (Problem 2)",
+      "notes": "Standard sequence"
+    },
+    "sep_12(2).vhdr": {
+      "recording_date": "2013-09-12",
+      "subject_info": "1987, Anthropology",
+      "problem_order": [
+        "Toothbrush",
+        "Workspace",
+        "Cake",
+        "Metro",
+        "Bin",
+        "Fountain"
+      ],
+      "s14_meaning": "Typing (Problem 2)",
+      "s15_meaning": "Evaluate WL (Problem 2)",
+      "notes": "Standard sequence"
+    },
+    "sep_13.vhdr": {
+      "recording_date": "2013-09-13",
+      "subject_info": "1987, Info Sys Eng",
+      "problem_order": [
+        "Metro",
+        "Bin",
+        "Cake",
+        "Brush",
+        "Fountain",
+        "Exercise"
+      ],
+      "s14_meaning": "Typing (Problem 2)",
+      "s15_meaning": "Evaluate WL (Problem 2)",
+      "notes": "Standard sequence"
+    },
+    "sep_13(2).vhdr": {
+      "recording_date": "2013-09-13",
+      "subject_info": "1987, ECE",
+      "problem_order": [
+        "Cake",
+        "Exercise",
+        "Brush",
+        "Bin",
+        "Metro",
+        "Fountain"
+      ],
+      "s14_meaning": "Typing (Problem 2)",
+      "s15_meaning": "Evaluate WL (Problem 2)",
+      "notes": "Signal bad, very relax"
+    },
+    "eeg_sep_18.vhdr": {
+      "recording_date": "2013-09-18",
+      "subject_info": "1982 F, Management",
+      "problem_order": [
+        "Cake",
+        "Exercise",
+        "Fountain",
+        "Bin",
+        "Brush",
+        "Metro"
+      ],
+      "s14_meaning": "Evaluate Solution (Problem 2)",
+      "s15_meaning": "Typing (Problem 2)",
+      "notes": "Sequence shifted by +1 due to 'done' marker inserted at marker 10."
+    }
+  },
+  "extracted_summary": {
+    "sep_12.vhdr": {
+      "total_events": 43,
+      "s14_count": 22,
+      "s15_count": 21
+    },
+    "sep_12(2).vhdr": {
+      "total_events": 41,
+      "s14_count": null,
+      "s15_count": null
+    },
+    "sep_13.vhdr": {
+      "total_events": 42,
+      "s14_count": null,
+      "s15_count": null
+    },
+    "sep_13(2).vhdr": {
+      "total_events": 43,
+      "s14_count": null,
+      "s15_count": null
+    },
+    "eeg_sep_18.vhdr": {
+      "total_events": 44,
+      "s14_count": null,
+      "s15_count": null
+    }
+  }
+}

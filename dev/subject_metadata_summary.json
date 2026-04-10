@@ -1,0 +1,49 @@
+{
+  "title": "September 2013 EEG Analysis - Final Report",
+  "timestamp": "2026-04-01T15:41:32.968221",
+  "total_subjects": 5,
+  "total_events": 213,
+  "subjects": {
+    "sep_12.vhdr": {
+      "date": "2013-09-12",
+      "info": "1990 F, Quality",
+      "events": 43,
+      "s14_meaning": "Typing (Problem 2)",
+      "s15_meaning": "Evaluate WL (Problem 2)",
+      "notes": "Standard sequence"
+    },
+    "sep_12(2).vhdr": {
+      "date": "2013-09-12",
+      "info": "1987, Anthropology",
+      "events": 41,
+      "s14_meaning": "Typing (Problem 2)",
+      "s15_meaning": "Evaluate WL (Problem 2)",
+      "notes": "Standard sequence"
+    },
+    "sep_13.vhdr": {
+      "date": "2013-09-13",
+      "info": "1987, Info Sys Eng",
+      "events": 42,
+      "s14_meaning": "Typing (Problem 2)",
+      "s15_meaning": "Evaluate WL (Problem 2)",
+      "notes": "Standard sequence"
+    },
+    "sep_13(2).vhdr": {
+      "date": "2013-09-13",
+      "info": "1987, ECE",
+      "events": 43,
+      "s14_meaning": "Typing (Problem 2)",
+      "s15_meaning": "Evaluate WL (Problem 2)",
+      "notes": "Signal bad, very relax"
+    },
+    "eeg_sep_18.vhdr": {
+      "date": "2013-09-18",
+      "info": "1982 F, Management",
+      "events": 44,
+      "s14_meaning": "Evaluate Solution (Problem 2)",
+      "s15_meaning": "Typing (Problem 2)",
+      "notes": "Sequence shifted by +1"
+    }
+  },
+  "status": "✅ 完成"
+}

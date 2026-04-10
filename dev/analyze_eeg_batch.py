@@ -29,9 +29,10 @@ print(f"Timestamp: {datetime.now()}\n")
 
 # Configuration
 EEG_SEARCH_PATHS = [
+    Path(r"C:\Users\whyke\github\six-problem\Data\OneDrive_1_01-04-2026"),
     Path.cwd(),
-    Path(r"D:\Six problem\six-problem\six-problem\EEG_six_problem"),
-    Path(r"C:\DesignZeng\Data\six-problem\EEG_six_problem"),
+    Path(r"C:\Users\whyke\OneDrive\Documents\EEG\0_raw_data"),
+    Path(r"C:\Users\whyke\Documents\EEGToolbox_Data\0_raw_data"),
 ]
 
 EEG_EXTENSIONS = ['.vhdr', '.edf', '.set', '.fif']
@@ -130,13 +131,15 @@ for idx, eeg_file in enumerate(eeg_files, 1):
             # Try exact match and case-insensitive variants
             count = 0
             for event_name, c in event_counts.items():
-                if event_name.lower() == marker.lower():
+                # Convert to string in case it's an integer
+                event_name_str = str(event_name).lower()
+                if event_name_str == marker.lower():
                     count = c
                     break
             result[marker] = count
 
         # Check if markers match documentation
-        extracted_markers = set(k.lower() for k in event_counts.keys())
+        extracted_markers = set(str(k).lower() for k in event_counts.keys())
         expected_markers_lower = set(m.lower() for m in EXPECTED_MARKERS)
 
         mismatches = extracted_markers - expected_markers_lower

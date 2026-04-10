@@ -1,14 +1,23 @@
+# -*- coding: utf-8 -*-
+import sys
+import io
+
+# 设置UTF-8编码,支持中文输出
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
 import mne
 import os
-import pandas as pd
+file_path = r"C:\Users\whyke\github\six-problem\Data\OneDrive_1_01-04-2026\eeg_sep_18\eeg_sep_18.vhdr"
 import numpy as np
 import matplotlib.pyplot as plt
 
 # ======================================
 # 1. 文件路径
 # ======================================
-file_path = r"D:\Six problem\six-problem\six-problem\EEG_six_problem\eeg_april_02(1)\april_2(1).vhdr"
-locs_path = r"C:\Users\umroot\Downloads\Cap63 (1).locs"
+file_path = r"C:\Users\whyke\github\six-problem\Data\OneDrive_1_01-04-2026\eeg_sep_12\sep_12.vhdr"
+locs_path = r"C:\Users\whyke\github\six-problem\Data\Cap63 (1).locs"
+
+
 
 # ======================================
 # 2. 读取 EEG
